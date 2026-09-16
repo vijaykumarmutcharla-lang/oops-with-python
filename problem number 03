@@ -1,0 +1,28 @@
+
+class Automobiles:
+    # Class attributes (shared by all instances)
+    name = "Tractor"
+    model = "735"
+
+    # Define the methods with 'self'
+    def plugging(self):
+        print("plugging")
+
+    def carry(self):
+        print("carrying")
+
+    def grass(self):
+        print("grass binding")
+
+
+# 2. Create an instance (object) of the class
+s1 = Automobiles()
+
+# 3. Access and print the attributes
+print(s1.name)
+print(s1.model)
+
+# 4. Call the methods to see them work
+s1.plugging()
+s1.carry()
+s1.grass()
