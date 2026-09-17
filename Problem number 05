@@ -1,0 +1,16 @@
+class student:
+    name = "kprit"
+    age = 21
+
+class csestudent(student):
+    branch = "cse g&f"
+
+# First instance and print statement
+fg = csestudent()
+print(fg.name)
+
+# Second instance and subsequent print statements
+fg = csestudent()
+print(fg.name)
+print(fg.age)
+print(fg.branch)
