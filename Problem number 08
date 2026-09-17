@@ -1,0 +1,21 @@
+class Student:
+    # The constructor method initializes the object's attributes
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    # Method to display the student's details
+    def read(self):
+        print(self.name)
+        print(self.age)
+
+# Creating multiple objects (instances) of the Student class
+s1 = Student("kprit", 21)
+s2 = Student("abc", 21)
+
+# Calling the read method for each object
+print("Student 1 Details:")
+s1.read()
+
+print("\nStudent 2 Details:")
+s2.read()
