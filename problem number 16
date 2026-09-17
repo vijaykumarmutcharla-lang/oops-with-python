@@ -1,0 +1,10 @@
+# The same function len() handles a string, a list, and a dictionary
+
+# Form 1: Counting characters in a string
+print(len("Python"))      # Output: 6
+
+# Form 2: Counting elements in a list
+print(len([10, 20, 30]))  # Output: 3
+
+# Form 3: Counting key-value pairs in a dictionary
+print(len({"a": 1, "b": 2}))  # Output: 2
