@@ -1,0 +1,22 @@
+class Demo:
+    # Constructor to initialize the object attributes
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    # Method to display the object attributes
+    def show(self):
+        print(self.name)
+        print(self.age)
+
+# Creating the first object
+d1 = Demo("KPris", 21)
+d1.show()
+
+# Creating the second object
+d2 = Demo("ab", 45)
+d2.show()
+
+# Creating the third object
+d3 = Demo("xyz", 30)  # Added placeholder values for d3
+d3.show()
