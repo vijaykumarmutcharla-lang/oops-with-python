@@ -1,0 +1,18 @@
+class CreditCardProcessor(PaymentProcessor):
+    
+    def authenticate(self):
+        print("Authenticating credit card via bank gateway...")
+        return True
+
+    def process_payment(self, amount):
+        print(f"Charging ${amount} to Credit Card.")
+
+
+class PayPalProcessor(PaymentProcessor):
+    
+    def authenticate(self):
+        print("Authenticating PayPal token via API...")
+        return True
+
+    def process_payment(self, amount):
+        print(f"Charging ${amount} to PayPal account.")
