@@ -1,0 +1,18 @@
+class Animal:
+    def eat(self):
+        print("animal eat")
+        
+    def speak(self):
+        print("animal speak")
+
+class Dog(Animal):
+    def sound(self):
+        print("Dog bark")
+
+# Creating an instance of the Dog class
+d = Dog()
+
+# Calling the methods
+d.eat()
+d.speak()
+d.sound()
