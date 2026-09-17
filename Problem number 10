@@ -1,0 +1,32 @@
+class StudentBank:
+    # Class attribute
+    name = "SBI"
+
+    # Methods to display account details
+    def account_type(self):
+        print("CURRENT")
+
+    def account_number(self):
+        print("2500 645207")
+
+    def account_pin(self):
+        print("1100")
+
+    def payment_method(self):
+        print("WITH DRAWAL")
+
+    def transaction_id(self):
+        print("xxxx5264")
+
+
+# Creating an object of the StudentBank class
+s1 = StudentBank()
+
+# Displaying the output by calling the attribute and methods
+print(s1.name)
+s1.account_type()
+s1.account_number()
+s1.account_pin()
+s1.payment_method()
+s1.transaction_id()
+  
