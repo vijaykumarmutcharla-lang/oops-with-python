@@ -1,0 +1,26 @@
+class Demo:
+    a = 1
+    b = 2
+    
+    def abc(self):
+        print("abc")
+
+class Sample(Demo):
+    c = 3
+    d = 4
+    
+    def cde(self):
+        print("cde")
+
+# Creating an instance of the child class
+s = Sample()
+
+# Accessing inherited and own attributes
+print(s.a)
+print(s.b)
+print(s.c)
+print(s.d)
+
+# Calling inherited and own methods
+s.abc()
+s.cde()
