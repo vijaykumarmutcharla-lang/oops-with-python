@@ -1,0 +1,19 @@
+# Parent Class
+class Dog:
+    def sound(self):
+        print("Dog sound")
+        
+    def eat(self):
+        print("Dog eat")
+
+# Child Class overriding the sound method
+class Cat(Dog):
+    def sound(self):
+        print("cat sound")
+
+# Object creation and method calls
+c = Cat()
+c.sound()
+
+d = Dog()
+d.sound()
