@@ -1,0 +1,24 @@
+class Vector:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    # Overloading the + operator
+    def __add__(self, other):
+        # Adds the x coordinates together and the y coordinates together
+        return Vector(self.x + other.x, self.y + other.y)
+
+    # Defining how the object prints nicely as a string
+    def __str__(self):
+        return f"Vector({self.x}, {self.y})"
+
+# Creating two vector objects
+v1 = Vector(2, 4)
+v2 = Vector(5, 3)
+
+# Using the '+' operator polymorphically on our custom objects
+v3 = v1 + v2
+
+print("Vector 1:", v1)
+print("Vector 2:", v2)
+print("Sum of Vectors:", v3) # Output: Vector(7, 7)
